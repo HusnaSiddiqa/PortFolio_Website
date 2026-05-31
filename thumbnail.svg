@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f1e"/>
+      <stop offset="100%" style="stop-color:#0d1424"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4aa"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e2e8f0"/>
+      <stop offset="60%" style="stop-color:#e2e8f0"/>
+      <stop offset="100%" style="stop-color:#00d4aa"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="70%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:0.07"/>
+      <stop offset="100%" style="stop-color:#00d4aa;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="20%" cy="80%" r="40%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- Left accent line -->
+  <rect x="80" y="80" width="3" height="470" fill="url(#accent)" opacity="0.3"/>
+
+  <!-- HS. Logo -->
+  <text x="110" y="148" font-family="monospace" font-size="42" font-weight="700" fill="#00d4aa">HS.</text>
+
+  <!-- Greeting -->
+  <text x="110" y="230" font-family="monospace" font-size="18" fill="#00d4aa" letter-spacing="3" opacity="0.9">AI / ML ENGINEER</text>
+
+  <!-- Name -->
+  <text x="108" y="320" font-family="Arial, sans-serif" font-size="74" font-weight="700" fill="url(#nameGrad)">Husna Siddiqa</text>
+
+  <!-- Title -->
+  <text x="112" y="375" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="#8892a4">AI/ML Engineer &amp; Technical Team Lead · Setuserv Informatics</text>
+
+  <!-- Divider line -->
+  <rect x="110" y="400" width="500" height="1.5" fill="url(#accent)" opacity="0.4"/>
+
+  <!-- Tech tags -->
+  <!-- Tag 1: Multi-Agent AI -->
+  <rect x="110" y="422" width="168" height="36" rx="18" fill="rgba(0,212,170,0.1)" stroke="#00d4aa" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="194" y="445" font-family="Arial, sans-serif" font-size="14" fill="#00d4aa" text-anchor="middle">Multi-Agent AI</text>
+
+  <!-- Tag 2: LangChain/LangGraph -->
+  <rect x="290" y="422" width="190" height="36" rx="18" fill="rgba(0,212,170,0.1)" stroke="#00d4aa" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="385" y="445" font-family="Arial, sans-serif" font-size="14" fill="#00d4aa" text-anchor="middle">LangChain · LangGraph</text>
+
+  <!-- Tag 3: NL2SQL · RAG -->
+  <rect x="492" y="422" width="130" height="36" rx="18" fill="rgba(0,212,170,0.1)" stroke="#00d4aa" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="557" y="445" font-family="Arial, sans-serif" font-size="14" fill="#00d4aa" text-anchor="middle">NL2SQL · RAG</text>
+
+  <!-- Tag 4: AWS Bedrock -->
+  <rect x="634" y="422" width="130" height="36" rx="18" fill="rgba(59,130,246,0.1)" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="699" y="445" font-family="Arial, sans-serif" font-size="14" fill="#3b82f6" text-anchor="middle">AWS Bedrock</text>
+
+  <!-- Tag 5: Databricks -->
+  <rect x="776" y="422" width="115" height="36" rx="18" fill="rgba(59,130,246,0.1)" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="833" y="445" font-family="Arial, sans-serif" font-size="14" fill="#3b82f6" text-anchor="middle">Databricks</text>
+
+  <!-- Bottom URL -->
+  <text x="110" y="560" font-family="monospace" font-size="16" fill="#8892a4" opacity="0.7">husnasiddiqa.github.io/PortFolio_Website</text>
+
+  <!-- Right side avatar circle -->
+  <circle cx="970" cy="315" r="175" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.2"/>
+  <circle cx="970" cy="315" r="155" fill="rgba(0,212,170,0.04)" stroke="url(#accent)" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="970" cy="315" r="130" fill="rgba(17,24,39,0.8)" stroke="url(#accent)" stroke-width="2" opacity="0.5"/>
+
+  <!-- HS initials in circle -->
+  <text x="970" y="355" font-family="monospace" font-size="80" font-weight="700" fill="url(#accent)" text-anchor="middle" opacity="0.9">HS</text>
+
+  <!-- Small floating badges around circle -->
+  <rect x="1070" y="175" width="100" height="30" rx="15" fill="rgba(17,24,39,0.9)" stroke="rgba(0,212,170,0.3)" stroke-width="1"/>
+  <text x="1120" y="195" font-family="Arial, sans-serif" font-size="11" fill="#00d4aa" text-anchor="middle">NL2SQL</text>
+
+  <rect x="1075" y="430" width="100" height="30" rx="15" fill="rgba(17,24,39,0.9)" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
+  <text x="1125" y="450" font-family="Arial, sans-serif" font-size="11" fill="#3b82f6" text-anchor="middle">Kubernetes</text>
+
+  <rect x="800" y="160" width="115" height="30" rx="15" fill="rgba(17,24,39,0.9)" stroke="rgba(0,212,170,0.3)" stroke-width="1"/>
+  <text x="857" y="180" font-family="Arial, sans-serif" font-size="11" fill="#00d4aa" text-anchor="middle">GenAI Platform</text>
+
+  <rect x="810" y="450" width="100" height="30" rx="15" fill="rgba(17,24,39,0.9)" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
+  <text x="860" y="470" font-family="Arial, sans-serif" font-size="11" fill="#3b82f6" text-anchor="middle">FastAPI · React</text>
+</svg>
