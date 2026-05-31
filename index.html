@@ -1,447 +1,561 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-  
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1.0"> 
-    <title>My Portfolio</title> 
-    <link rel="stylesheet" 
-          href= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-          integrity= 
-"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-             crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-    <link rel="stylesheet" href="style.css"> 
-    <link rel="stylesheet" href="responsive.css"> 
-</head> 
-  
-<body> 
-    <!-- Navbar header section -->
-    <header class="header"> 
-        <nav class="navbar"> 
-            <div class="logo"> 
-                <h2 class="logo-heading">Husna Siddiqa</h2> 
-            </div> 
-            <div class="hamburger" id="hamburger"> 
-                <i class="fas fa-bars hamburger-icon"></i> 
-                <i class="fas fa-times cross-icon"></i> 
-            </div> 
-            <div class="menu"> 
-                <ul class="menu-list"> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#home"> 
-                              Home 
-                          </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#portfolio"> 
-                              Portfolio 
-                          </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#about"> 
-                              About 
-                          </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#services"> 
-                              Services 
-                          </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#contact"> 
-                              Contact Me 
-                          </a> 
-                    </li> 
-                </ul> 
-            </div> 
-        </nav> 
-    </header> 
-     <!-- Main hero banner -->
-     <section id="home" class="hero"> 
-        <div class="intro"> 
-            <div class="headings"> 
-                <h3 class="greet-heading">Hello, I'm</h3> 
-                <h1 class="my-heading">Husna Siddiqa</h1> 
-                <h4 class="sub-heading"> 
-                    A Software Engineer 
-                </h4> 
-            </div> 
-            <div class="intro-buttons"> 
-                <button class="btn common-btn">Hire Me</button> 
-                <button class="btn ghost-btn">Get Resume</button> 
-            </div> 
-        </div> 
-    </section> 
-  
-    <!-- Portfolio Section -->
-    <section class="portfolio" id="portfolio"> 
-        <div class="portfolio-heading"> 
-            <h1 class="my-heading text-center">Featured Portfolio</h1> 
-        </div> 
-        <div class="portfolio-content"> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card port-card"> 
-                        <div class="image"> 
-                            <img src="C:\Users\V.MADHURI\Downloads\html.png" 
-                                 alt="Web Design Image"> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">HTML</h3> 
-                        <p class="small-para blue-text"></p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card port-card"> 
-                        <div class="image"> 
-                            <img src="C:\Users\V.MADHURI\Downloads\css.png" 
-                                 alt="Web Development Image"> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                            CSS
-                          </h3> 
-                        <p class="small-para blue-text">Styling</p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card port-card"> 
-                        <div class="image"> 
-                            <img src="C:\Users\V.MADHURI\Downloads\Js.png" alt="SEO Image"> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">JAVASCRIPT/h3> 
-                        <p class="small-para blue-text">Functinality</p> 
-                    </div> 
-                </div> 
-            </div> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card port-card"> 
-                        <div class="image"> 
-                            <img src="C:\Users\V.MADHURI\Downloads\react.png" 
-                                 alt="Content Writting Image"> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                              REACT
-                          </h3> 
-                        <p class="small-para blue-text"></p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card port-card"> 
-                        <div class="image"> 
-                            <img src="C:\Users\V.MADHURI\Downloads\java.png" 
-                                 alt="Wordpress Image"> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                              JAVA
-                          </h3> 
-                        <p class="small-para blue-text"> 
-                          </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card port-card"> 
-                        <div class="image"> 
-                            <img src="C:\Users\V.MADHURI\Downloads\videoEditing.png" 
-                                 alt="Video Editing Image"> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                            Video Editing 
-                          </h3> 
-                        <p class="small-para blue-text">Editing</p> 
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </section> 
-  
-    <!-- About Section -->
-    <section id="about" class="about"> 
-        <div class="about-text"> 
-            <h1 class="my-heading">About Me</h1> 
-            <p class="lead-para"> 
-                "I'm a software engineer with a passion for developing innovative solutions to complex problems. I have expertise in languages like Python, Java, and JavaScript, and I enjoy working on full-stack web development projects. In my free time, I like to contribute to open-source projects and stay updated on the latest technologies in the field. I'm particularly interested in artificial intelligence and machine learning, and I'm always eager to learn new techniques to apply in my work."
-            </p> 
-            <p> 
-             
-            </p> 
-        </div> 
-      
-    </section> 
-  
-    <!-- Services Section -->
-    <section class="services" id="services"> 
-        <div class="services-heading"> 
-            <h1 class="my-heading text-center">My Services</h1> 
-        </div> 
-        <div class="services-content"> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-paint-brush"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">Web Design</h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                            building, and maintaining 
-                          of websites. It includes aspects such as  
-                            web design, web publishing, 
-                          web programming, and database management.  
-                            It is the creation of an 
-                          application that works over the internet  
-                            i.e. websites. 
-                      </p> 
-                      <p class="small-para"> 
-                          Web development refers to the creating,  
-                            building, and maintaining 
-                          of websites. It includes aspects such as  
-                            web design, web publishing, 
-                          web programming, and database management.  
-                            It is the creation of an 
-                          application that works over the internet  
-                            i.e. websites. 
-                      </p> 
-                  </div> 
-              </div> 
-              <div class="my-col"> 
-                  <div class="my-card"> 
-                      <div class="icon"> 
-                        <i class="fa-solid fa-code"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                              Web Development 
-                          </h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining 
-                            of websites. It includes aspects such as  
-                              web design, web publishing, 
-                            web programming, and database management.  
-                              It is the creation of an 
-                            application that works over the internet  
-                              i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining 
-                            of websites. It includes aspects such as  
-                              web design, web publishing, 
-                            web programming, and database management.  
-                              It is the creation of an 
-                            application that works over the internet  
-                              i.e. websites. 
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-chart-line"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">SEO</h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining 
-                            of websites. It includes aspects such as  
-                              web design, web publishing, 
-                            web programming, and database management.  
-                              It is the creation of an 
-                            application that works over the internet  
-                              i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining 
-                            of websites. It includes aspects such as  
-                              web design, web publishing, 
-                            web programming, and database management.  
-                              It is the creation of an 
-                            application that works over the internet  
-                              i.e. websites. 
-                        </p> 
-                    </div> 
-                </div> 
-            </div> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-quote-left"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                              Content Writting 
-                          </h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining of websites.  
-                              It includes aspects such as web design,  
-                              web publishing, web programming, and  
-                              database management. It is the creation  
-                              of an application that works over the  
-                              internet i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining of websites.  
-                              It includes aspects such as web design,  
-                              web publishing, web programming, and  
-                              database management. It is the creation of an 
-                            application that works over the internet i.e.  
-                              websites. 
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fab fa-wordpress-simple"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                              WordPress Dev 
-                          </h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining of websites.  
-                              It includes aspects such as web design,  
-                              web publishing, web programming, and  
-                              database management. It is the creation  
-                              of an application that works over the  
-                              internet i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining 
-                            of websites. It includes aspects such as  
-                              web design, web publishing, 
-                            web programming, and database management.  
-                              It is the creation of an 
-                            application that works over the internet  
-                              i.e. websites. 
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-video"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                              Video Editing 
-                          </h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining 
-                            of websites. It includes aspects such as  
-                              web design, web publishing, 
-                            web programming, and database management.  
-                              It is the creation of an 
-                            application that works over the internet  
-                              i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating,  
-                              building, and maintaining 
-                            of websites. It includes aspects such as  
-                              web design, web publishing, 
-                            web programming, and database management.  
-                              It is the creation of an 
-                            application that works over the internet  
-                              i.e. websites. 
-                        </p> 
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </section> 
-  
-    <!-- Contact me section -->
-    <section class="contact" id="contact"> 
-        <div class="contact-heading"> 
-            <h1 class="my-heading text-center">Contact Me</h1> 
-        </div> 
-        <div class="contact-content"> 
-            <div class="contact-form-container"> 
-                <h1 class="greet-heading">Get In Touch</h1> 
-                <form class="contact-form"> 
-                    <input class="form-controls" type="text" 
-                           placeholder="Your Name"> 
-                    <input class="form-controls" type="text" 
-                           placeholder="Your Email"> 
-                    <input class="form-controls" type="text" 
-                    placeholder="Your Phone"> 
-                    <textarea class="form-controls" 
-                              placeholder="Write your message" 
-                              name="message" id="" cols="30"
-                              rows="10"> 
-                      </textarea> 
-                    <input class="form-btn btn common-btn" 
-                           type="submit" value="Send Message"> 
-                </form> 
-            </div> 
-            <div class="contact-details"> 
-                <h1 class="greet-heading">My Contact Details</h1> 
-                <div class="details"> 
-                    <h5 class="contact-heading">EMAIL</h5> 
-                    <p class="contact-text">husnasiddiqa895@gmail.com</p> 
-                </div> 
-                <div class="details"> 
-                    <h5 class="contact-heading">PHONE</h5> 
-                    <p class="contact-text">+91 95730 XXXXX</p> 
-                </div> 
-                
-                <div class="details"> 
-                    <h5 class="contact-heading">ADDRESS</h5> 
-                    <p class="contact-text">State:Telanagana</p> 
-                    <p>Dist:Jagitial</p> 
-                    <p>Muslimpura metpally</p> 
-                </div> 
-            </div> 
-        </div> 
-    </section> 
-  
-    <!-- Footer section -->
-    <footer class="footer"> 
-        <div class="footer-content text-center"> 
-            <h4> 
-                Copyright © 2023 All rights reserved 
-            </h4> 
-            <div class="social-links"> 
-                <div class="footer-menu"> 
-                    <ul class="footer-menu-list"> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-facebook-f"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-twitter"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-instagram"></i> 
-                            </a> 
-                        </li> 
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="#"> 
-                                <i class="fab fa-linkedin-in"></i> 
-                            </a> 
-                        </li> 
-                    </ul> 
-                </div> 
-            </div> 
-        </div> 
-    </footer> 
-  
-    <script src= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
-        integrity= 
-"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"> 
-      </script> 
-    <script src="script.js"></script> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Husna Siddiqa | AI/ML Engineer</title>
+    <meta name="description" content="AI/ML Engineer specializing in multi-agent orchestration, NL2SQL, RAG, and Databricks AI/BI Genie for enterprise analytics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- =====================================================
+         GOOGLE ANALYTICS 4
+         Setup steps:
+         1. Go to https://analytics.google.com
+         2. Create account → Create Property → Web
+         3. Enter your site URL (e.g. username.github.io)
+         4. Copy your Measurement ID (looks like G-XXXXXXXXXX)
+         5. Replace BOTH instances of G-XXXXXXXXXX below
+    ====================================================== -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">HS<span class="logo-dot">.</span></span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu" id="menu">
+                <ul class="menu-list">
+                    <li><a class="links" href="#home">Home</a></li>
+                    <li><a class="links" href="#about">About</a></li>
+                    <li><a class="links" href="#skills">Skills</a></li>
+                    <li><a class="links" href="#experience">Experience</a></li>
+                    <li><a class="links" href="#projects">Projects</a></li>
+                    <li><a class="links" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <p class="hero-greeting">Hi, I'm</p>
+                <h1 class="hero-name">Husna Siddiqa</h1>
+                <p class="hero-title">AI/ML Engineer &amp; Technical Team Lead</p>
+                <div class="hero-role">
+                    <span class="role-prefix">Specializing in&nbsp;</span>
+                    <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-desc">
+                    Building production-grade GenAI platforms that convert natural-language business questions into governed, reliable insights — from architecture to deployment, for enterprise pharma users at scale.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="Husna_Siddiqa.pdf" class="btn secondary-btn" target="_blank" data-track="resume_download">
+                        <i class="fas fa-download"></i> Get Resume
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/husna-siddiqa-7039452ab/" class="social-icon" title="LinkedIn" target="_blank" rel="noopener" data-track="click_linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/husnasiddiqa" class="social-icon" title="GitHub" target="_blank" rel="noopener" data-track="click_github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/Husna_Siddiqa/" class="social-icon" title="LeetCode" target="_blank" rel="noopener" data-track="click_leetcode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    <a href="mailto:husnasiddiqa895@gmail.com" class="social-icon" title="Email" data-track="click_email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-avatar-wrap">
+                <div class="avatar-ring">
+                    <div class="avatar-circle">
+                        <span class="avatar-initials">HS</span>
+                    </div>
+                </div>
+                <div class="floating-badge badge-1">
+                    <i class="fas fa-robot"></i>
+                    <span>Multi-Agent AI</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fas fa-database"></i>
+                    <span>NL2SQL</span>
+                </div>
+                <div class="floating-badge badge-3">
+                    <i class="fab fa-aws"></i>
+                    <span>AWS Bedrock</span>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-hint" aria-label="Scroll down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="alt-bg">
+        <div class="wrap fade-in">
+            <div class="section-header">
+                <p class="section-label">Background</p>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm an <strong>AI/ML Engineer</strong> with 1.5 years of experience building agentic analytics systems for pharmaceutical business users. Currently at <strong>Setuserv Informatics</strong>, I lead development of a GenAI platform powering analytics across <strong>3 therapeutic areas</strong> (Oncology, HIV, PBC) for Gilead Sciences.
+                    </p>
+                    <p>
+                        My work centers on <strong>multi-agent orchestration</strong> — designing supervisor/sub-agent systems with LangChain &amp; LangGraph, NL2SQL pipelines on Databricks SQL Warehouse, RAG with hybrid search over OpenSearch, and Databricks AI/BI Genie spaces. I build for production: Kubernetes on AWS EKS, Okta OAuth 2.0/OIDC, Dynatrace observability, and benchmark-driven evaluation reaching <strong>90–95% response accuracy</strong>.
+                    </p>
+                    <p>
+                        I hold a B.Tech in Electronics &amp; Communication Engineering (CGPA: 8.79/10) from RGUKT Basar and love combining rigorous engineering with cutting-edge LLMs to solve real business problems.
+                    </p>
+                    <div class="about-links">
+                        <a href="mailto:husnasiddiqa895@gmail.com" class="inline-link" data-track="click_email">
+                            <i class="fas fa-envelope"></i> husnasiddiqa895@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/husna-siddiqa-7039452ab/" class="inline-link" target="_blank" rel="noopener" data-track="click_linkedin">
+                            <i class="fab fa-linkedin-in"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/husnasiddiqa" class="inline-link" target="_blank" rel="noopener" data-track="click_github">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">1.5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">30–40</span>
+                        <span class="stat-label">Business Users Served</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">90–95%</span>
+                        <span class="stat-label">Response Accuracy</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Sub-Agents Orchestrated</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <div class="wrap fade-in">
+            <div class="section-header">
+                <p class="section-label">Technical Expertise</p>
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-cat">
+                    <h3><i class="fas fa-robot"></i> GenAI / LLM</h3>
+                    <div class="tag-group">
+                        <span class="tag">Multi-Agent Orchestration</span>
+                        <span class="tag">Supervisor/Sub-Agent Systems</span>
+                        <span class="tag">LangChain</span>
+                        <span class="tag">LangGraph</span>
+                        <span class="tag">NL2SQL</span>
+                        <span class="tag">RAG</span>
+                        <span class="tag">Hybrid Search</span>
+                        <span class="tag">Prompt Engineering</span>
+                        <span class="tag">AWS Bedrock (Nova Pro)</span>
+                        <span class="tag">GPT Models</span>
+                        <span class="tag">Claude Models</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h3><i class="fas fa-chart-bar"></i> Analytics Engineering</h3>
+                    <div class="tag-group">
+                        <span class="tag">Databricks AI/BI Genie</span>
+                        <span class="tag">Genie Spaces</span>
+                        <span class="tag">SQL Warehouse</span>
+                        <span class="tag">Metric Views</span>
+                        <span class="tag">SQL Expressions</span>
+                        <span class="tag">Unity Catalog</span>
+                        <span class="tag">Databricks Apps</span>
+                        <span class="tag">Semantic Layer</span>
+                        <span class="tag">Metadata Curation</span>
+                        <span class="tag">Benchmarking &amp; Evaluation</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h3><i class="fas fa-brain"></i> ML / Deep Learning</h3>
+                    <div class="tag-group">
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">CNNs</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Predictive Modeling</span>
+                        <span class="tag">Vision-Language Models</span>
+                        <span class="tag">LoRA Fine-Tuning</span>
+                        <span class="tag">Model Evaluation</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="tag-group">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Java</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h3><i class="fas fa-cloud"></i> Cloud &amp; Data</h3>
+                    <div class="tag-group">
+                        <span class="tag">AWS EKS</span>
+                        <span class="tag">AWS Bedrock</span>
+                        <span class="tag">S3 / Lambda / EC2</span>
+                        <span class="tag">Kubernetes</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Helm</span>
+                        <span class="tag">Terraform</span>
+                        <span class="tag">Apache Spark</span>
+                        <span class="tag">OpenSearch</span>
+                        <span class="tag">DynamoDB</span>
+                        <span class="tag">Databricks Lakehouse</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">CI/CD</span>
+                    </div>
+                </div>
+                <div class="skill-cat">
+                    <h3><i class="fas fa-tools"></i> Tools &amp; Infra</h3>
+                    <div class="tag-group">
+                        <span class="tag">React</span>
+                        <span class="tag">Git / GitHub</span>
+                        <span class="tag">Hugging Face</span>
+                        <span class="tag">Gradio</span>
+                        <span class="tag">Okta (OAuth 2.0/OIDC)</span>
+                        <span class="tag">Dynatrace</span>
+                        <span class="tag">OpenTelemetry</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="alt-bg">
+        <div class="wrap fade-in">
+            <div class="section-header">
+                <p class="section-label">Work History</p>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="timeline">
+
+                <div class="tl-item">
+                    <div class="tl-dot tl-dot-active"></div>
+                    <div class="tl-card tl-card-current">
+                        <div class="tl-header">
+                            <div class="tl-title-block">
+                                <h3 class="job-title">AI/ML Engineer <span class="role-sep">&amp;</span> Technical Team Lead</h3>
+                                <p class="company">Setuserv Informatics Pvt Ltd</p>
+                                <p class="job-context">Pharmaceutical Analytics · Gilead Sciences – Remote / India</p>
+                            </div>
+                            <span class="duration">Jul 2025 – Present</span>
+                        </div>
+
+                        <p class="tl-section-label">Engineering &amp; Platform Development</p>
+                        <ul class="tl-points">
+                            <li>Architected enterprise GenAI platform serving <strong>30–40 business users across 3 therapeutic areas</strong> with a supervisor agent orchestrating 5+ sub-agents — NL2SQL agents generate governed queries on Databricks SQL Warehouse; RAG agents perform hybrid-search retrieval over OpenSearch with Bedrock prompt caching.</li>
+                            <li>Built and optimized <strong>Databricks AI/BI Genie spaces</strong> for self-service analytics — curating Unity Catalog metadata, synonyms, join relationships, SQL expressions, and metric views; integrated automated scheduled deck workflows.</li>
+                            <li>Automated editable <strong>PowerPoint generation</strong>, cutting deck preparation from <strong>~10 days to 2–3 minutes</strong> per reporting cycle across both the multi-agent platform and Genie workflows.</li>
+                            <li>Designed benchmarking &amp; evaluation system achieving <strong>90–95% response accuracy</strong>, reducing manual QA from 3–4 days to <strong>1–2 hours</strong> of automated runs.</li>
+                            <li>Shipped production microservices on <strong>AWS EKS</strong> (Docker, Helm) secured via Okta OAuth 2.0/OIDC with Dynatrace and OpenTelemetry observability.</li>
+                        </ul>
+
+                        <p class="tl-section-label">Leadership &amp; Client Engagement</p>
+                        <ul class="tl-points">
+                            <li>Oversaw concurrent GenAI and analytics delivery across enterprise pharma accounts — proactively identifying system gaps and pipeline inefficiencies, and presenting concrete improvement proposals to clients beyond the contracted scope.</li>
+                            <li>Led <strong>client-facing technical reviews</strong>, translating model behaviour, system performance, and analytical findings into clear business narratives for non-technical pharma stakeholders, and aligning on roadmap priorities for upcoming development cycles.</li>
+                            <li>Mentored junior team members across the full project lifecycle — scoping tasks, conducting output and code reviews, and maintaining delivery cadence across active client engagements.</li>
+                            <li>Ran sprint ceremonies and maintained structured documentation in <strong>Jira and Confluence</strong>, keeping engineering and client stakeholder teams aligned on priorities, blockers, and delivery status.</li>
+                        </ul>
+
+                        <div class="tl-stack">
+                            <span class="tag tag-sm">LangChain</span>
+                            <span class="tag tag-sm">LangGraph</span>
+                            <span class="tag tag-sm">AWS Bedrock</span>
+                            <span class="tag tag-sm">Databricks</span>
+                            <span class="tag tag-sm">OpenSearch</span>
+                            <span class="tag tag-sm">Kubernetes</span>
+                            <span class="tag tag-sm">FastAPI</span>
+                            <span class="tag tag-sm">Jira</span>
+                            <span class="tag tag-sm">Confluence</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tl-item">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <div class="tl-header">
+                            <div class="tl-title-block">
+                                <h3 class="job-title">Data Science &amp; AI Intern</h3>
+                                <p class="company">Setuserv Informatics Pvt Ltd</p>
+                                <p class="job-context">Remote / India</p>
+                            </div>
+                            <span class="duration">Jan 2025 – Jun 2025</span>
+                        </div>
+                        <ul class="tl-points">
+                            <li>Built foundational LLM agent components and data-orchestration utilities for the analytics platform prototype, later productionized in the enterprise system.</li>
+                        </ul>
+                        <div class="tl-stack">
+                            <span class="tag tag-sm">Python</span>
+                            <span class="tag tag-sm">LangChain</span>
+                            <span class="tag tag-sm">LLMs</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+        <div class="wrap fade-in">
+            <div class="section-header">
+                <p class="section-label">Selected Work</p>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- C3PO — Featured -->
+                <div class="proj-card featured">
+                    <span class="featured-badge">Featured</span>
+                    <div class="proj-header">
+                        <div class="proj-icon"><i class="fas fa-robot"></i></div>
+                        <div class="proj-links">
+                            <!-- Update href with your actual GitHub repo URL -->
+                            <a href="https://github.com/husnasiddiqa/c3po" class="proj-link" title="GitHub" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="proj-name">C3PO – Multi-Agent GenAI Orchestration Platform</h3>
+                    <p class="proj-desc">
+                        Open-source enterprise conversational analytics platform serving 3 therapeutic areas and 30–40 users. A supervisor agent routes queries to specialized NL2SQL and RAG sub-agents with real-time streaming, multi-turn follow-ups, and hybrid-search retrieval over OpenSearch with AWS Bedrock.
+                    </p>
+                    <ul class="proj-highlights">
+                        <li>On-the-fly editable PowerPoint generation from agent responses</li>
+                        <li>Automated scheduled deck workflows for recurring reporting</li>
+                        <li>Benchmarking framework achieving 90–95% accuracy across 50+ eval queries</li>
+                    </ul>
+                    <div class="proj-stack">
+                        <span class="tag tag-sm">Python</span>
+                        <span class="tag tag-sm">FastAPI</span>
+                        <span class="tag tag-sm">LangChain</span>
+                        <span class="tag tag-sm">LangGraph</span>
+                        <span class="tag tag-sm">React</span>
+                        <span class="tag tag-sm">TypeScript</span>
+                        <span class="tag tag-sm">AWS Bedrock</span>
+                        <span class="tag tag-sm">OpenSearch</span>
+                        <span class="tag tag-sm">DynamoDB</span>
+                        <span class="tag tag-sm">Kubernetes</span>
+                    </div>
+                </div>
+
+                <!-- Databricks Genie -->
+                <div class="proj-card">
+                    <div class="proj-header">
+                        <div class="proj-icon"><i class="fas fa-chart-line"></i></div>
+                    </div>
+                    <h3 class="proj-name">Databricks AI/BI Genie – Self-Service Pharma Analytics</h3>
+                    <p class="proj-desc">
+                        Configured Genie Spaces across 3 therapeutic areas (Oncology, HIV, PBC) enabling non-technical users to query pharmaceutical data in natural language. Built a knowledge store with space-level metadata, business-term synonyms, join relationships, and SQL expressions encoding domain logic.
+                    </p>
+                    <ul class="proj-highlights">
+                        <li>Metric views &amp; parameterized SQL for trusted responses</li>
+                        <li>Prompt matching for iterative query-accuracy improvement</li>
+                        <li>Automated scheduled deck generation for recurring business reports</li>
+                    </ul>
+                    <div class="proj-stack">
+                        <span class="tag tag-sm">Databricks</span>
+                        <span class="tag tag-sm">Genie Spaces</span>
+                        <span class="tag tag-sm">Unity Catalog</span>
+                        <span class="tag tag-sm">SQL</span>
+                        <span class="tag tag-sm">Metric Views</span>
+                        <span class="tag tag-sm">Python</span>
+                    </div>
+                </div>
+
+                <!-- Image Captioning -->
+                <div class="proj-card">
+                    <div class="proj-header">
+                        <div class="proj-icon"><i class="fas fa-image"></i></div>
+                        <div class="proj-links">
+                            <!-- Update these hrefs with your actual GitHub and HuggingFace demo URLs -->
+                            <a href="https://github.com/husnasiddiqa/image-captioning" class="proj-link" title="GitHub" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="proj-link" title="Live Demo" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="proj-name">Image Captioning &amp; Caption-Quality Evaluation</h3>
+                    <p class="proj-desc">
+                        BLIP-based captioning app with Gradio on HuggingFace Spaces. Engineered evaluation pipeline (CLIPScore + BLEU) across decoding strategies. Fine-tuned via LoRA (0.24% of 248M params); surfaced CLIPScore ↑ vs. BLEU ↓ divergence revealing metric trade-offs.
+                    </p>
+                    <div class="proj-stack">
+                        <span class="tag tag-sm">Python</span>
+                        <span class="tag tag-sm">BLIP</span>
+                        <span class="tag tag-sm">LoRA Fine-Tuning</span>
+                        <span class="tag tag-sm">Gradio</span>
+                        <span class="tag tag-sm">HuggingFace</span>
+                        <span class="tag tag-sm">CLIPScore</span>
+                        <span class="tag tag-sm">BLEU</span>
+                    </div>
+                </div>
+
+                <!-- Pneumonia Detection -->
+                <div class="proj-card">
+                    <div class="proj-header">
+                        <div class="proj-icon"><i class="fas fa-x-ray"></i></div>
+                    </div>
+                    <h3 class="proj-name">Pneumonia Detection from Chest X-Rays</h3>
+                    <p class="proj-desc">
+                        CNN classifier for pneumonia detection from chest X-rays, aiding earlier clinical diagnosis. Applied image augmentation and transfer learning to improve generalization on medical imaging data.
+                    </p>
+                    <div class="proj-stack">
+                        <span class="tag tag-sm">Python</span>
+                        <span class="tag tag-sm">CNN</span>
+                        <span class="tag tag-sm">TensorFlow</span>
+                        <span class="tag tag-sm">Medical Imaging</span>
+                        <span class="tag tag-sm">Transfer Learning</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="alt-bg">
+        <div class="wrap fade-in">
+            <div class="section-header">
+                <p class="section-label">Let's Connect</p>
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm currently open to new opportunities in AI/ML engineering, GenAI platform development, and agentic systems. Whether you have a project in mind or just want to connect, feel free to reach out.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span class="ci-label">Email</span>
+                                <a href="mailto:husnasiddiqa895@gmail.com">husnasiddiqa895@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <span class="ci-label">Phone</span>
+                                <span>+91 95730 95136</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <span class="ci-label">Location</span>
+                                <span>Telangana, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/husna-siddiqa-7039452ab/" class="social-icon" title="LinkedIn" target="_blank" rel="noopener" data-track="click_linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/husnasiddiqa" class="social-icon" title="GitHub" target="_blank" rel="noopener" data-track="click_github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/Husna_Siddiqa/" class="social-icon" title="LeetCode" target="_blank" rel="noopener" data-track="click_leetcode">
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="What's this about?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>Designed &amp; Built by <span class="accent">Husna Siddiqa</span></p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/husna-siddiqa-7039452ab/" class="social-icon sm" title="LinkedIn" target="_blank" rel="noopener" data-track="click_linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/husnasiddiqa" class="social-icon sm" title="GitHub" target="_blank" rel="noopener" data-track="click_github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://leetcode.com/u/Husna_Siddiqa/" class="social-icon sm" title="LeetCode" target="_blank" rel="noopener" data-track="click_leetcode">
+                    <i class="fas fa-code"></i>
+                </a>
+            </div>
+            <p class="footer-copy">&copy; 2025 All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
